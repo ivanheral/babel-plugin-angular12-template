@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-angular12-template",
+  "version": "1.0.0",
+  "description": "Allow to add your angular templates and stylesheets into angular components.",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanheral/babel-plugin-angular12-template.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "babel-plugin",
+    "babel",
+    "angular12"
+  ],
+  "author": "Iván Hernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanheral/babel-plugin-angular12-template/issues"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.8"
+  }
+}
